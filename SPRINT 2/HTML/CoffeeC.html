@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+		<link href = "../CSS/cstyle.css" rel="stylesheet" type="text/css">
+		<meta charset="UTF-8">
+		<title>COFFEE CONNECT</title>
+</head>
+<body>
+	
+	<div class="main">
+		<div class="navbar">
+			<img src="../images/coffee_logo.png" alt="logo" class="logo">
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#" class ="active">Coffee</a></li>
+					<li><a href="#">Blogs</a></li>
+					<li><a href="#">Reviews</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="content">
+
+			<div class="column">
+				<h1>COFFEE CONNECT</h1>
+				<p>The world's best tasting coffee</p>
+				<a href = "#" id="button1" class = "button1">Order Now!</a>
+			</div>
+
+			<div class="column">
+				<div class="card card1">
+					<h5>FRAPPUCINO</h5>
+					<p><br>The perfect blend of the bitterness and sweetness.</p>
+				</div>
+				<div class="card card2">
+					<h5>FREEZE</h5>
+					<p><br>Overload sweetness of chocolate.</p>
+				</div>
+				<div class="card card3">
+					<h5>ICED TEA</h5>
+					<p><br>Refreshing taste that chase your thirst away.</p>
+				</div>
+				<div class="card card4">
+					<h5>FOODS</h5>
+					<p><br>Smell and taste that will make your stomach happy!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-modal">
+		<div class="modal-content">
+
+			<div id="close_but"class ="close_but">+</div>
+
+			<img src ="../images/coffee_form.png" alt ="logo" class="coffee_form">
+
+			<form action="" class = "form">
+				<input type="text" placeholder="Name">
+				<input type="text" placeholder="Address">
+				
+				
+				<div class="options">
+
+						<h5>Order:</h5>
+
+						<label>Frappuccino
+						<input type="checkbox" class="frappe" name ="freeze">
+						</label>
+
+						<label>Freeze
+						<input type="checkbox" class="freeze" name ="freeze">
+						</label>
+
+						<label>Iced Tea
+						<input type="checkbox" class="tea" name ="tea">
+						</label>
+
+						<label>Carbonara
+						<input type="checkbox" class="food" name ="food">
+						</label>
+
+				</div>
+
+				<a href = "#" id="button2" class = "button2">Place Order</a>
+
+			</form>
+		</div>
+
+	</div>	
+
+
+	<script src= '../JAVASCRIPT/main.js' type="text/javascript"></script>
+	
+</body>
+</html>
